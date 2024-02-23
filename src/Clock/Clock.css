@@ -1,0 +1,46 @@
+.clock__space-button {
+  display: flex;
+  justify-content: center;
+  max-width: 520px;
+}
+
+.clock__button {
+  display: flex;
+  align-items: center;
+  background-color: #3B3A3A;
+  width: 250px;
+  height: 18px;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.clock__display {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #3B3A3A;
+  height: 200px;
+  width: 500px;
+  border-radius: 30px;
+  border-width: 200px;
+  border: 10px solid white;
+}
+
+.display__hours h1 {
+  font-size: 130px;
+  color: #27FFEC; 
+  font-family: 'DS-Digital', sans-serif;                                           
+}
+
+.clock__supports {
+  display: flex;
+  justify-content: space-around;
+  max-width: 520px;
+}
+
+.clock__supports .support {
+  background-color: #3B3A3A;
+  width: 60px;
+  height: 10px;
+  border-radius: 0px 0px 10px 10px;
+}
+
