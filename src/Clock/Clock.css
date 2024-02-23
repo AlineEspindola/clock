@@ -35,7 +35,11 @@
   display: flex;
   justify-content: space-around;
   max-width: 520px;
+  background-color: #59AACC;
+  height: 30px;
+  border-radius: 50%
 }
+
 
 .clock__supports .support {
   background-color: #3B3A3A;
