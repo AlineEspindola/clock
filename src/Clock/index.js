@@ -3,6 +3,19 @@ import './Clock.css';
 
 class Clock extends Component {
 
+  constructor(props) {
+    super(props);
+    this.state = {
+      currentTime: '00:00:00'
+    }
+  }
+
+  componentDidMount() {
+    setInterval(() => {
+      this.setState({ currentTime: new Date().toLocaleTimeString() })
+    }, 1000 );
+  }
+
   render() {
     return(
       <div className='clock'>
@@ -12,7 +25,7 @@ class Clock extends Component {
         </div>
         <div className='clock__display'>
           <div className='display__hours'>
-            <h1>12:23:21</h1>
+            <h1>{this.state.currentTime}</h1>
           </div>
         </div>
         <div className='clock__supports'>
