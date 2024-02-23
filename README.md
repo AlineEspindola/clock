@@ -5,6 +5,7 @@
   <img src="https://github.com/AlineEspindola/clock/assets/117865319/cd586601-1ed3-4cc5-8db2-9983f6abb5ae" />
   <h1 align="center">Relógio Digital</h1>
   <p>Um relógio digital funcional utilizando React. Este componente React exibe a hora atual do computador do usuário</p>
+  <h1><a href="https://clock-git-main-aline-espindolas-projects.vercel.app/" target="_blank">Visite o site no Vercel</a></h1>
 </div>
 
 https://github.com/AlineEspindola/clock/assets/117865319/44c6b158-9e16-429c-89c4-322f7f6fa7fd
